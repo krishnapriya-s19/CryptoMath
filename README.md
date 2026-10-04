@@ -17,5 +17,7 @@ A Discrete Mathematics project: a file and text encryption/decryption system bui
 
 ## How to run
 pip install -r requirements.txt
+
 python test_all.py
+
 streamlit run app.py
