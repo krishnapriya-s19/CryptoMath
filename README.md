@@ -1,23 +1,39 @@
-# CryptoMath
+# CryptoMath 
 
-A Discrete Mathematics project: a file and text encryption/decryption system built with Python and Streamlit.
+CryptoMath is a Python and Streamlit-based Discrete Mathematics and Cryptography application that demonstrates classical and modern encryption techniques while connecting their implementation to mathematical concepts.
 
-## Features
-- Encrypt and decrypt text or files with a password
-- Caesar, Vigenère, XOR, RSA (from scratch) and AES-256
-- Shows encryption/decryption time, key size and security level
+### Cryptographic Algorithms
+- Caesar Cipher
+- Affine Cipher
+- Vigenère Cipher
+- XOR Cipher
+- One-Time Pad
+- RSA Encryption
+- AES-256-GCM Encryption
+- Diffie-Hellman Key Exchange module
+- SHA-256 Hashing
 
-## Discrete Math concepts used
-- Euler's phi function (RSA)
-- Bijective functions (encrypt/decrypt)
-- Equivalence relations (congruence mod n)
-- Propositional logic (XOR)
-- Counting (key space sizes)
-- GCD, primes, modular arithmetic
+*ChaCha20 is listed in the application but its implementation must be completed and verified before claiming it as a working feature.*
 
-## How to run
-pip install -r requirements.txt
+### Discrete Mathematics Integration
+- GCD and modular arithmetic
+- Euler's totient function
+- Modular multiplicative inverse
+- Prime number generation
+- Bijective functions and inverse mappings
+- XOR and propositional logic
+- Key-space counting and the multiplication principle
+- Pigeonhole principle and hash collisions
+- Modular exponentiation
 
-python test_all.py
-
-streamlit run app.py
+### Application Features
+1. Text encryption and decryption.
+2. File encryption and decryption.
+3. Password strength and entropy analysis.
+4. Caesar and Affine brute-force attack demonstrations.
+5. Letter-frequency analysis.
+6. Step-by-step mathematical explanations.
+7. Encryption and decryption benchmarking.
+8. SHA-256 hashing and file comparison.
+9. RSA key generation, download and upload.
+10. Avalanche-effect demonstration for SHA-256.
